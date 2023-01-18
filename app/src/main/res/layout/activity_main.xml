@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/T1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/B1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:background="#ff0"
+        android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/B1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        >
+    </Button>
+
+    <Button
+
+        android:text="Delete"
+        android:id="@+id/B2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/PV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pasa Valor"
+        android:layout_below="@+id/T2"
+        android:layout_centerHorizontal="true">
+
+    </Button>
+
+    <TextView
+        android:id="@+id/T2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/B2"
+        android:background="#ff0"
+        android:layout_centerInParent="true">
+
+    </TextView>
+
+</RelativeLayout>
